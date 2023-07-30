@@ -1,3 +1,4 @@
+import styled from '@emotion/styled';
 import React from 'react';
 
 export interface IButtonProps {
@@ -7,9 +8,15 @@ export interface IButtonProps {
 
 const Button = ({ text = '제출하기', onClick }: IButtonProps) => {
   return (
-    <div onClick={onClick}>
+    <ButtonWrapper onClick={onClick}>
       <span>{text}</span>
-    </div>
+    </ButtonWrapper>
   );
 };
+
 export default Button;
+
+const ButtonWrapper = styled.div`
+  font-size: 14px;
+  color: ${(props) => props.theme.colors.red};
+`;
