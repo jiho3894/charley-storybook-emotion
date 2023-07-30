@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 import React from 'react';
+import { EColors } from '../../styles';
 
 export interface IButtonProps {
   text: string;
@@ -18,5 +19,5 @@ export default Button;
 
 const ButtonWrapper = styled.div`
   font-size: 14px;
-  color: ${(props) => props.theme.colors.red};
+  color: ${EColors.red};
 `;

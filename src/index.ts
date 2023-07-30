@@ -1,3 +1,2 @@
-import Button from './stories/Button/Button';
-
-export { Button };
+export { default as Buton } from './stories/Button/Button';
+export * from './styles';
