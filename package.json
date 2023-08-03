@@ -23,8 +23,7 @@
     "analyze": "size-limit --why",
     "storybook": "storybook dev",
     "build-storybook": "storybook build",
-    "release": "np",
-    "preinstall": "npx only-allow pnpm"
+    "release": "np"
   },
   "peerDependencies": {
     "react": ">=16"
@@ -87,8 +86,6 @@
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
-    "@types/react-lottie": "^1.2.6",
-    "np": "^8.0.4",
-    "react-lottie": "^1.2.3"
+    "np": "^8.0.4"
   }
 }
