@@ -23,7 +23,8 @@
     "analyze": "size-limit --why",
     "storybook": "storybook dev",
     "build-storybook": "storybook build",
-    "release": "np"
+    "release": "np",
+    "preinstall": "npx only-allow pnpm"
   },
   "peerDependencies": {
     "react": ">=16"
@@ -89,6 +90,5 @@
     "@types/react-lottie": "^1.2.6",
     "np": "^8.0.4",
     "react-lottie": "^1.2.3"
-  },
-  "packageManager": "yarn@3.6.1"
+  }
 }
