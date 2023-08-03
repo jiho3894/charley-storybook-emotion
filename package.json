@@ -87,6 +87,7 @@
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@types/react-lottie": "^1.2.6",
+    "np": "^8.0.4",
     "react-lottie": "^1.2.3"
   },
   "packageManager": "yarn@3.6.1"
