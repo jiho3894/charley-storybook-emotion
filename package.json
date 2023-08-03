@@ -23,7 +23,7 @@
     "analyze": "size-limit --why",
     "storybook": "storybook dev",
     "build-storybook": "storybook build",
-    "release": "np"
+    "release": "np --no-cleanup patch"
   },
   "peerDependencies": {
     "react": ">=16"
