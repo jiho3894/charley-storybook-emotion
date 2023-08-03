@@ -23,8 +23,7 @@
     "analyze": "size-limit --why",
     "storybook": "storybook dev",
     "build-storybook": "storybook build",
-    "release": "np",
-    "preinstall": "npx only-allow pnpm"
+    "release": "np"
   },
   "peerDependencies": {
     "react": ">=16"
