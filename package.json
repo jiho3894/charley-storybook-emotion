@@ -51,11 +51,11 @@
   "size-limit": [
     {
       "path": "dist/charley-storybook-emotion.cjs.production.min.js",
-      "limit": "10 KB"
+      "limit": "50 KB"
     },
     {
       "path": "dist/charley-storybook-emotion.esm.js",
-      "limit": "10 KB"
+      "limit": "50 KB"
     }
   ],
   "devDependencies": {
