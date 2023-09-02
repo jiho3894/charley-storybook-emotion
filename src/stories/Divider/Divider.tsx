@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
-import { TDividerProps } from '../type';
-import { Colors } from '../styles';
+import { TDividerProps } from '../../type';
+import { Colors } from '../../styles';
 import React from 'react';
 
 interface IDividerProps {

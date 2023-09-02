@@ -1,6 +1,6 @@
 import { Meta } from '@storybook/react';
 import { Fragment } from 'react';
-import { TIconColor, TIconSize } from '../type';
+import { TIconColor, TIconSize } from '../../type';
 import Icon from './Icon';
 import React from 'react';
 

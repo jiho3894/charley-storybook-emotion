@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 import { ReactElement } from 'react';
-import { BasicSize, Colors } from '../styles';
-import { TNavigationBarIcon } from '../type';
+import { BasicSize, Colors } from '../../styles';
+import { TNavigationBarIcon } from '../../type';
 import React from 'react';
 
 interface INavigationBarStyleProps {

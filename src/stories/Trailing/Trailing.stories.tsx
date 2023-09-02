@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import { Meta } from '@storybook/react';
-import { Colors } from '../styles';
+import { Colors } from '../../styles';
 import Text from '../Text/Text';
 import Trailing from './Trailing';
 import React from 'react';

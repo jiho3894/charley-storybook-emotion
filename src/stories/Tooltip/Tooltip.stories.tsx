@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 import { Meta } from '@storybook/react';
 import Tooltip from './Tooltip';
 import Text from '../Text/Text';
-import { TTooltipType } from '../type';
+import { TTooltipType } from '../../type';
 import AssistiveText from '../AssistiveText/AssistiveText';
 import { Fragment } from 'react';
 import React from 'react';

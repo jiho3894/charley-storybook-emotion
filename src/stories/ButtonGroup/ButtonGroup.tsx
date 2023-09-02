@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 import { ReactElement } from 'react';
-import { BasicSize } from '../styles';
-import { TButtonGroupDirection } from '../type';
+import { BasicSize } from '../../styles';
+import { TButtonGroupDirection } from '../../type';
 import React from 'react';
 
 export interface IButtonStyleGroupProps {

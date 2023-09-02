@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 import Text from '../Text/Text';
-import { BasicSize, Colors } from '../styles';
-import { TInputSizeProps } from '../type';
+import { BasicSize, Colors } from '../../styles';
+import { TInputSizeProps } from '../../type';
 import { useState } from 'react';
 import React from 'react';
 
