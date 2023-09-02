@@ -3,11 +3,11 @@ import { ReactElement } from 'react';
 import { BasicSize, Colors } from '../styles';
 import React from 'react';
 
-interface IDialogProps {
+interface IAlertDialogProps {
   children: ReactElement[];
 }
 
-const AlertDialog = ({ children }: IDialogProps) => {
+const AlertDialog = ({ children }: IAlertDialogProps) => {
   return (
     <DialogContainer>
       <DialogWrapper>
@@ -29,6 +29,9 @@ const AlertDialog = ({ children }: IDialogProps) => {
 };
 
 const DialogContainer = styled.div`
+  position: absolute;
+  top: 0;
+  z-index: 9999;
   display: flex;
   flex-direction: column;
   justify-content: center;

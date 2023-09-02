@@ -29,6 +29,9 @@ const Dialog = ({ children }: IDialogProps) => {
 };
 
 const DialogContainer = styled.div`
+  position: absolute;
+  top: 0;
+  z-index: 9999;
   display: flex;
   flex-direction: column;
   justify-content: center;
