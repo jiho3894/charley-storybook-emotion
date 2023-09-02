@@ -1,9 +1,9 @@
 import styled from '@emotion/styled';
 import { ButtonHTMLAttributes, forwardRef } from 'react';
 import Icon from '../Icon/Icon';
-import { BasicSize, Colors } from '../../styles';
+import { BasicSize, Colors } from '../styles';
 import Text from '../Text/Text';
-import { TButtonIcon, TButtonSize, TButtonState, TButtonType, TIconType } from '../../type';
+import { TButtonIcon, TButtonSize, TButtonState, TButtonType, TIconType } from '../type';
 import React from 'react';
 
 export interface IButtonStyleProps extends ButtonHTMLAttributes<HTMLButtonElement> {

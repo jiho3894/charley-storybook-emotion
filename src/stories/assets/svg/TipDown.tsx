@@ -1,5 +1,5 @@
 import React from 'react';
-import { TTipIconSize } from '../../../type';
+import { TTipIconSize } from '../../type';
 
 interface ITipDownProps {
   border: TTipIconSize;

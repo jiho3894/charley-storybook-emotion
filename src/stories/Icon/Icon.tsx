@@ -10,8 +10,8 @@ import PlayPause from '../assets/svg/PlayPause';
 import PlayStart from '../assets/svg/PlayStart';
 import PlayStop from '../assets/svg/PlayStop';
 import Refresh from '../assets/svg/Refresh';
-import { getColors } from '../../hook';
-import { TIconColor, TIconSize, TIconType } from '../../type';
+import { getColors } from '../hook';
+import { TIconColor, TIconSize, TIconType } from '../type';
 import React from 'react';
 
 export interface IconProps {

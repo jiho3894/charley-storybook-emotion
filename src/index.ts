@@ -12,6 +12,3 @@ export { default as Text } from './stories/Text/Text';
 export { default as TextButton } from './stories/TextButton/TextButton';
 export { default as Tooltip } from './stories/Tooltip/Tooltip';
 export { default as Trailing } from './stories/Trailing/Trailing';
-export * from './styles';
-export * from './hook';
-export * from './type';

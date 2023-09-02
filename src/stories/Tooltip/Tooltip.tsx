@@ -1,8 +1,8 @@
-import { TTipIconSize, TTooltipType } from '../../type';
+import { TTipIconSize, TTooltipType } from '../type';
 import { ReactElement, useEffect, useRef, useState } from 'react';
 import styled from '@emotion/styled';
-import { BasicSize } from '../../styles';
-import { getPositionLine } from '../../hook';
+import { BasicSize } from '../styles';
+import { getPositionLine } from '../hook';
 import React from 'react';
 
 interface ITooltipProps {

@@ -1,4 +1,4 @@
-import { TTipIconSize } from '../../../type';
+import { TTipIconSize } from '../../type';
 import React from 'react';
 
 interface ITipUpProps {

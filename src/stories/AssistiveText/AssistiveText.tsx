@@ -1,8 +1,8 @@
 import styled from '@emotion/styled';
 import Icon from '../Icon/Icon';
-import { BasicSize, Colors } from '../../styles';
+import { BasicSize, Colors } from '../styles';
 import Text from '../Text/Text';
-import { TAssistiveTextType } from '../../type';
+import { TAssistiveTextType } from '../type';
 import React from 'react';
 
 interface IAssistiveTextStyleProps {
