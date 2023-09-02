@@ -291,14 +291,7 @@ const ButtonWrapper = styled.button<IButtonStyleProps>`
         border: 0;
         `;
       }
-    }
-    return `
-        width: 32px;
-        path {
-          fill : ${color};
-        }
-        border: 0;
-    `;
+    } else return;
   }}
 `;
 
