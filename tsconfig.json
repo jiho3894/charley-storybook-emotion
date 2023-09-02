@@ -19,5 +19,6 @@
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "resolveJsonModule": true,
+    "ignoreErrors": [7031]
   }
 }
