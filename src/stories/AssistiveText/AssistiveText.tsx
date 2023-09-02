@@ -26,7 +26,7 @@ const AssistiveTextWrapper = styled.div<IAssistiveTextStyleProps>`
   display: inline-flex;
   align-items: center;
   gap: ${BasicSize.Spacing_XXS};
-  color: ${({ type }) => (type === 'Helper' ? Colors.Opacity_Black600 : Colors.Error800)};
+  color: ${({ type }: { type: TAssistiveTextType }) => (type === 'Helper' ? Colors.Opacity_Black600 : Colors.Error800)};
 `;
 
 export default AssistiveText;
