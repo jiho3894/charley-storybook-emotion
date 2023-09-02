@@ -1,8 +1,9 @@
 import { TTipIconSize, TTooltipType } from '../type';
-import { ReactElement, useEffect, useLayoutEffect, useRef, useState } from 'react';
+import { ReactElement, useEffect, useRef, useState } from 'react';
 import styled from '@emotion/styled';
 import { BasicSize } from '../styles';
 import { getPositionLine } from '../hook';
+import React from 'react';
 
 interface ITooltipProps {
   position: TTooltipType;
@@ -88,7 +89,10 @@ const TooltipWrapper = styled.div<ITooltipStyleProps>`
         margin-right: -39px; // margin-left +15px
         `;
         default:
-          break;
+          return `
+        left: 50%;
+        margin-left: -${tooltipWidth}px;
+        `;
       }
     }}
   }

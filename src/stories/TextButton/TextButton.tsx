@@ -4,6 +4,7 @@ import Icon from '../Icon/Icon';
 import { BasicSize, Colors } from '../styles';
 import Text from '../Text/Text';
 import { TButtonIcon, TIconType, TTextButtonState } from '../type';
+import React from 'react';
 
 export interface ITextButtonStyleProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   btnType?: TTextButtonState; // 버튼 BG 종류
@@ -112,6 +113,12 @@ const TextButtonWrapper = styled.button<ITextButtonStyleProps>`
       }
       `;
     }
+    return `
+      color: ${Colors.Primary800};
+      path {
+        fill: ${Colors.Primary800};
+      }
+    `;
   }}
   ${({ disabled }) =>
     disabled &&

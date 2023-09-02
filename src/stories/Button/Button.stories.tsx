@@ -3,6 +3,7 @@ import { Meta } from '@storybook/react';
 import { Colors } from '../styles';
 import Text from '../Text/Text';
 import Button from './Button';
+import React from 'react';
 
 const meta: Meta<typeof Button> = {
   title: 'TTDS/Basic/Button',

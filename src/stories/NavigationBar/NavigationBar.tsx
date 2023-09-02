@@ -2,6 +2,7 @@ import styled from '@emotion/styled';
 import { ReactElement } from 'react';
 import { BasicSize, Colors } from '../styles';
 import { TNavigationBarIcon } from '../type';
+import React from 'react';
 
 interface INavigationBarStyleProps {
   icon: TNavigationBarIcon;
@@ -61,6 +62,9 @@ const NavigationWrapper = styled.div<INavigationBarStyleProps>`
       padding: ${BasicSize.Spacing_XS} ${BasicSize.Spacing_XS} ${BasicSize.Spacing_XS} ${BasicSize.Spacing_M};
       `;
     }
+    return `
+      padding: ${BasicSize.Spacing_XS};
+    `;
   }}
 `;
 

@@ -2,6 +2,7 @@ import { Meta } from '@storybook/react';
 import { Colors } from '../styles';
 import { TFontSize } from '../type';
 import Text from './Text';
+import React from 'react';
 
 const meta: Meta<typeof Text> = {
   title: 'TTDS/Basic/Text',

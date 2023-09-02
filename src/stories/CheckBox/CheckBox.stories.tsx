@@ -2,6 +2,7 @@ import styled from '@emotion/styled';
 import { Meta } from '@storybook/react';
 import Text from '../Text/Text';
 import CheckBox from './CheckBox';
+import React from 'react';
 
 const meta: Meta<typeof CheckBox> = {
   title: 'TTDS/Basic/CheckBox',

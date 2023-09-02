@@ -4,6 +4,7 @@ import Icon from '../Icon/Icon';
 import { BasicSize, Colors } from '../styles';
 import Text from '../Text/Text';
 import { TButtonIcon, TButtonSize, TButtonState, TButtonType, TIconType } from '../type';
+import React from 'react';
 
 export interface IButtonStyleProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   size?: TButtonSize; // 버튼 사이즈
@@ -98,7 +99,10 @@ const ButtonWrapper = styled.button<IButtonStyleProps>`
                 gap: ${BasicSize.Spacing_XXS};
         `;
       default:
-        break;
+        return `height: ${BasicSize.Min_Sizes_Height_S};
+                padding: ${BasicSize.Spacing_XXS} ${BasicSize.Spacing_XS};
+                gap: ${BasicSize.Spacing_XXS};
+        `;
     }
   }}
   ${({ btnType, state, primary }) => {
@@ -242,6 +246,15 @@ const ButtonWrapper = styled.button<IButtonStyleProps>`
     }
     `;
     }
+    return `
+    background: ${Colors.Primary600};
+    color: ${Colors.Opacity_White};
+    &:hover {
+    background: ${Colors.Primary800};
+    }
+    path {
+      fill : ${Colors.Opacity_White};
+    }`;
   }}
   ${({ disabled }) =>
     disabled &&
@@ -279,6 +292,13 @@ const ButtonWrapper = styled.button<IButtonStyleProps>`
         `;
       }
     }
+    return `
+        width: 32px;
+        path {
+          fill : ${color};
+        }
+        border: 0;
+    `;
   }}
 `;
 

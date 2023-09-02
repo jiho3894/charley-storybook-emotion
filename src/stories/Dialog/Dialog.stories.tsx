@@ -8,6 +8,7 @@ import Text from '../Text/Text';
 import Trailing from '../Trailing/Trailing';
 import Dialog from './Dialog';
 import Tooltip from '../Tooltip/Tooltip';
+import React from 'react';
 
 const meta: Meta<typeof Dialog> = {
   title: 'TTDS/Basic/Dialog',

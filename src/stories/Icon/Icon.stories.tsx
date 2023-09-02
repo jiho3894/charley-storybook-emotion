@@ -2,6 +2,7 @@ import { Meta } from '@storybook/react';
 import { Fragment } from 'react';
 import { TIconColor, TIconSize } from '../type';
 import Icon from './Icon';
+import React from 'react';
 
 const meta: Meta<typeof Icon> = {
   title: 'TTDS/Basic/Icon',

@@ -3,6 +3,7 @@ import { Meta } from '@storybook/react';
 import { Colors } from '../styles';
 import Text from '../Text/Text';
 import Trailing from './Trailing';
+import React from 'react';
 
 const meta: Meta<typeof Trailing> = {
   title: 'TTDS/Basic/Trailing',

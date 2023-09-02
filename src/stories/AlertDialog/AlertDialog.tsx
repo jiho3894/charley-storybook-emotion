@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import { ReactElement } from 'react';
 import { BasicSize, Colors } from '../styles';
+import React from 'react';
 
 interface IDialogProps {
   children: ReactElement[];

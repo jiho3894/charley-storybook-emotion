@@ -4,6 +4,7 @@ import { Colors } from '../styles';
 import Text from '../Text/Text';
 import Trailing from '../Trailing/Trailing';
 import NavigationBar from './NavigationBar';
+import React from 'react';
 
 const meta: Meta<typeof NavigationBar> = {
   title: 'TTDS/Basic/NavigationBar',

@@ -5,6 +5,7 @@ import Text from '../Text/Text';
 import { TTooltipType } from '../type';
 import AssistiveText from '../AssistiveText/AssistiveText';
 import { Fragment } from 'react';
+import React from 'react';
 
 const meta: Meta<typeof Tooltip> = {
   title: 'TTDS/Basic/Tooltip',

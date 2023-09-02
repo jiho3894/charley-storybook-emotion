@@ -3,6 +3,7 @@ import Text from '../Text/Text';
 import { BasicSize, Colors } from '../styles';
 import { TInputSizeProps } from '../type';
 import { useState } from 'react';
+import React from 'react';
 
 interface IRadioButtonProps {
   label: string;

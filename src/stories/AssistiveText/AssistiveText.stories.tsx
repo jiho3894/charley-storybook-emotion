@@ -2,6 +2,7 @@ import styled from '@emotion/styled';
 import { Meta } from '@storybook/react';
 import Text from '../Text/Text';
 import AssistiveText from './AssistiveText';
+import React from 'react';
 
 const meta: Meta<typeof AssistiveText> = {
   title: 'TTDS/Basic/AssistiveText',

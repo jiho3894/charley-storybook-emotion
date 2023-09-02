@@ -12,6 +12,7 @@ import PlayStop from '../assets/svg/PlayStop';
 import Refresh from '../assets/svg/Refresh';
 import { getColors } from '../hook';
 import { TIconColor, TIconSize, TIconType } from '../type';
+import React from 'react';
 
 export interface IconProps {
   size?: TIconSize;

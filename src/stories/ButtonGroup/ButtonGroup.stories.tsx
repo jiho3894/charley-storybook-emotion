@@ -3,6 +3,7 @@ import { Meta } from '@storybook/react';
 import Button from '../Button/Button';
 import Text from '../Text/Text';
 import ButtonGroup from './ButtonGroup';
+import React from 'react';
 
 const meta: Meta<typeof ButtonGroup> = {
   title: 'TTDS/Basic/ButtonGroup',

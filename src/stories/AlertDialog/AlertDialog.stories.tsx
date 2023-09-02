@@ -6,6 +6,7 @@ import ButtonGroup from '../ButtonGroup/ButtonGroup';
 import Text from '../Text/Text';
 import AlertDialog from './AlertDialog';
 import Tooltip from '../Tooltip/Tooltip';
+import React from 'react';
 
 const meta: Meta<typeof AlertDialog> = {
   title: 'TTDS/Basic/AlertDialog',

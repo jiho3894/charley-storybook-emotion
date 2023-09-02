@@ -1,4 +1,5 @@
-import { IconProps } from '@/stories/Icon/Icon';
+import React from 'react';
+import { IconProps } from '../../Icon/Icon';
 
 const PlayMic = ({ size, color }: IconProps) => {
   return (

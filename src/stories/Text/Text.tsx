@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import { HTMLAttributes } from 'react';
 import { TFontSize } from '../type';
+import React from 'react';
 
 interface ITextProps extends HTMLAttributes<HTMLHeadingElement | HTMLParagraphElement> {
   variant?: TFontSize;

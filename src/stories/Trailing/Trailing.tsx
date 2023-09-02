@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import Button from '../Button/Button';
 import { TIconType, TTrailingSizeProps } from '../type';
+import React from 'react';
 
 interface ITrailingProps {
   iconType: TIconType;

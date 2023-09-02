@@ -1,4 +1,5 @@
-import { TTipIconSize } from '@/stories/type';
+import React from 'react';
+import { TTipIconSize } from '../../type';
 
 interface ITipDownProps {
   border: TTipIconSize;

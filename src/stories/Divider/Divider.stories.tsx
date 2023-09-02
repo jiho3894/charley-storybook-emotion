@@ -2,6 +2,7 @@ import styled from '@emotion/styled';
 import { Meta } from '@storybook/react';
 import Text from '../Text/Text';
 import Divider from './Divider';
+import React from 'react';
 
 const meta: Meta<typeof Divider> = {
   title: 'TTDS/Basic/Divider',
